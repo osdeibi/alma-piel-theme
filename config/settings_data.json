@@ -1,0 +1,965 @@
+{
+  "current": {
+    "color_text": "#3a3a3a",
+    "color_body_text": "#333232",
+    "color_sale_text": "#06c7c7",
+    "color_button": "#3a3a3a",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#3a3a3a",
+    "color_text_field_text": "#000000",
+    "color_text_field_border": "#cccccc",
+    "color_text_field": "#ffffff",
+    "color_image_overlay_text": "#000000",
+    "color_image_overlay": "#ffffff",
+    "image_overlay_opacity": 0,
+    "color_borders": "#cccccc",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "assistant_n4",
+    "type_header_base_size": 26,
+    "type_base_font": "assistant_n4",
+    "type_base_size": 15,
+    "predictive_search_enabled": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/Almapiel-111032314373964",
+    "social_instagram_link": "http:\/\/instagram.com\/almapielspa",
+    "favicon": "shopify:\/\/shop_images\/favicon.jpg",
+    "checkout_header_image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2021-03-19_a_la_s_16.25.09.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#ececec",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#06c7c7",
+    "checkout_button_color": "#cccccc",
+    "checkout_error_color": "#f9bc49",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/Captura_de_Pantalla_2021-03-23_a_la_s_10.32.53.png",
+          "logo_max_width": 250,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "APROVECHA NUESTROS PRECIOS DE LANZAMIENTO!!!            Los precios más bajos!",
+          "message_link": "",
+          "color_bg": "#f4540b",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero-1": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/156907357_111040471039815_5241687733055289138_o.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "small",
+          "text_size": "large",
+          "title": "",
+          "text": "<p>Cuidamos el alma, amamos tu piel<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "layout": "left",
+          "title": "Imagen con texto",
+          "text": "<p>Vincula un texto largo con una imagen para dar visibilidad a tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad, estilo, o incluso ofrece una reseña.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/laser.jpg",
+              "title": "",
+              "text": "",
+              "button_label": "Depilación láser",
+              "button_link": "shopify:\/\/collections\/depilacion-laser"
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/drenaje_15ac23ce-805b-4d7e-9d79-3230e077f13f.jpg",
+              "title": "",
+              "text": "",
+              "button_label": "Drenaje Linfático y Ultrasonido",
+              "button_link": "shopify:\/\/collections\/drenaje-linfatico"
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/facial.jpg",
+              "title": "",
+              "text": "",
+              "button_label": "Tratamientos Faciales",
+              "button_link": "shopify:\/\/collections\/skincare"
+            }
+          },
+          "35ffd8c7-c556-4a4d-a71d-f1bfda57c2ed": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Agregar un título o eslogan",
+              "text": "<p>Comparte entradas de blogs, productos o promociones con tus clientes. Usa este texto para describir productos, compartir detalles sobre la disponibilidad y el estilo, o como un espacio para mostrar reseñas recientes o preguntas frecuentes.<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2",
+          "35ffd8c7-c556-4a4d-a71d-f1bfda57c2ed"
+        ],
+        "settings": {
+          "title": "Nuestros Servicios",
+          "align_text": "center"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Promociones Destacadas",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "hero-2": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner-soprano.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "Conoce la tecnología trío",
+          "button_link": "shopify:\/\/collections\/tecnologia"
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "90455c7e-ab81-4943-8543-d614139e2f79": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>DIRECCIÓN:<br\/><\/strong>A. Vespucio Sur 1307 Of. 410 Las Condes, Santiago<br\/>(esquina Isabel la Católica)<\/p><p><strong>HORARIOS:<br\/><\/strong>Lunes a Viernes 9:00 a 18:00 hrs<br\/>Sábados 9:00 a 18:00 hrs<\/p><p><strong>Fono y Whatsapp +56 2 22441000<br\/><\/strong>contacto@almapiel.cl<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "90455c7e-ab81-4943-8543-d614139e2f79"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#ececec",
+          "color_footer_text": "#646868",
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "16159953868dbca50b": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1615995386e16364ff-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "promociones-mujer"
+            }
+          },
+          "1615995386e16364ff-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "promociones-hombre"
+            }
+          }
+        },
+        "block_order": [
+          "1615995386e16364ff-0",
+          "1615995386e16364ff-1"
+        ],
+        "settings": {
+          "title": "",
+          "grid": 2
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 5,
+          "rows": 8,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "También te puede interesar",
+          "show_vendor": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "16161731078f79236e": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "full_width": true,
+          "section_title": "<div class=\"countdown-KT-full-width hide-KT\" id=\"countdownultimate-KT\"><\/div>",
+          "text": "",
+          "text_size": "small"
+        }
+      },
+      "161617863296c1035e": {
+        "type": "feature-columns",
+        "blocks": {
+          "16161786329b946ded-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/iStock-985783858.jpg",
+              "title": "Conoce la Depilación Láser",
+              "text": "",
+              "button_label": "Ver +",
+              "button_link": "shopify:\/\/pages\/conoce-la-depilacion-laser"
+            }
+          },
+          "16161786329b946ded-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/preguntas_frecuentes.jpg",
+              "title": "Preguntas Frecuentes",
+              "text": "",
+              "button_label": "Ver +",
+              "button_link": "shopify:\/\/pages\/preguntas-frecuentes"
+            }
+          },
+          "16161786329b946ded-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/indicaciones.jpg",
+              "title": "Indicaciones Previas y Posteriores al Tratamiento",
+              "text": "",
+              "button_label": "Ver +",
+              "button_link": "shopify:\/\/pages\/indicaciones-previas-y-posteriores-al-tratamiento"
+            }
+          },
+          "094d9127-ab65-4826-a99b-3ec7a75a0dc5": {
+            "type": "text_block",
+            "disabled": true,
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/ANTES_DESPUES.jpg",
+              "title": "Fotos Estética Facial - Antes\/Después",
+              "text": "",
+              "button_label": "VER +",
+              "button_link": "shopify:\/\/pages\/fotos"
+            }
+          }
+        },
+        "block_order": [
+          "16161786329b946ded-0",
+          "16161786329b946ded-1",
+          "16161786329b946ded-2",
+          "094d9127-ab65-4826-a99b-3ec7a75a0dc5"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center"
+        }
+      },
+      "161651440322ca7421": {
+        "type": "collection-list",
+        "blocks": {
+          "161651440322ca7421-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "depilacion-laser-mujer"
+            }
+          },
+          "449e9fbd-18e2-44e0-9bf2-ac5c3f164f7c": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "depilacion-laser-hombre"
+            }
+          },
+          "161651440322ca7421-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "promociones-mujer"
+            }
+          },
+          "06bcb180-7adc-4a15-a753-dac835925ddc": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "promociones-hombre"
+            }
+          },
+          "96fb4574-6c9a-4ac8-8c37-9ca362e23b78": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "limpieza-facial-profunda"
+            }
+          },
+          "6879ab78-e050-46e5-bd3a-24cb3dd7ca8e": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "shot-de-vitaminas-facial"
+            }
+          },
+          "feec42c2-c076-41ff-b504-6b2437d1f106": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "tratamientos-con-dermapen-4"
+            }
+          },
+          "f6280acd-80e0-401d-bdc3-f428a9cd5926": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "drenaje-linfatico"
+            }
+          },
+          "a9688832-2c71-45d0-bfb7-27740fdff633": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "toxina-botulinica"
+            }
+          },
+          "8aaee98c-f442-4de0-8935-6b504e456127": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "acido-hialuronico"
+            }
+          },
+          "c8da198b-d3d5-4c95-a0e5-4fc70bf305c1": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "bioestimulacion"
+            }
+          },
+          "37eec51e-8e4e-44c3-815b-9bbc5fde83b0": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "lipolisis"
+            }
+          }
+        },
+        "block_order": [
+          "161651440322ca7421-0",
+          "449e9fbd-18e2-44e0-9bf2-ac5c3f164f7c",
+          "161651440322ca7421-2",
+          "06bcb180-7adc-4a15-a753-dac835925ddc",
+          "96fb4574-6c9a-4ac8-8c37-9ca362e23b78",
+          "6879ab78-e050-46e5-bd3a-24cb3dd7ca8e",
+          "feec42c2-c076-41ff-b504-6b2437d1f106",
+          "f6280acd-80e0-401d-bdc3-f428a9cd5926",
+          "a9688832-2c71-45d0-bfb7-27740fdff633",
+          "8aaee98c-f442-4de0-8935-6b504e456127",
+          "c8da198b-d3d5-4c95-a0e5-4fc70bf305c1",
+          "37eec51e-8e4e-44c3-815b-9bbc5fde83b0"
+        ],
+        "settings": {
+          "title": "NUESTROS SERVICIOS",
+          "grid": 4
+        }
+      },
+      "1617116903c2c29c95": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner-giftcard_5aa10899-cb9a-4d5c-84d3-f6daef7e5e19.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "VER GIFTCARDS",
+          "button_link": "shopify:\/\/collections\/giftcards"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "16182498236e89bff3": {
+        "type": "slideshow",
+        "blocks": {
+          "28224330-2948-455f-8884-fc8601094c41": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-Laser2x3.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "CONOCER MÁS",
+              "button_link": "shopify:\/\/collections\/depilacion-laser-mujer"
+            }
+          },
+          "a37ab67a-2462-4eea-b02c-b96797e55f2c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner2-negro.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "CONOCER MÁS",
+              "button_link": "shopify:\/\/collections\/promociones-mujer"
+            }
+          },
+          "e11910df-99b2-4aff-babd-6e1b09ff4349": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-agendar-cita.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "AGENDAR AQUÍ",
+              "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
+            }
+          }
+        },
+        "block_order": [
+          "28224330-2948-455f-8884-fc8601094c41",
+          "a37ab67a-2462-4eea-b02c-b96797e55f2c",
+          "e11910df-99b2-4aff-babd-6e1b09ff4349"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "right bottom",
+          "show_overlay": true,
+          "autorotate": true,
+          "autorotate_speed": 5
+        }
+      },
+      "161835032156f272c4": {
+        "type": "video",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/bkg-video.jpg",
+          "image_position": "center center",
+          "video_link": "https:\/\/youtu.be\/t55DDpoj_XM",
+          "show_overlay": false,
+          "style": "image_with_play",
+          "height": "small",
+          "video_title": "¿SABÍAS QUE TU PIEL TE CONOCE MEJOR QUE TU?",
+          "text_size": "medium"
+        }
+      }
+    },
+    "content_for_index": [
+      "16182498236e89bff3",
+      "hero-1",
+      "16161731078f79236e",
+      "161651440322ca7421",
+      "16159953868dbca50b",
+      "hero-2",
+      "161617863296c1035e",
+      "1617116903c2c29c95",
+      "161835032156f272c4"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

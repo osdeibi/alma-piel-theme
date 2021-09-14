@@ -1,0 +1,167 @@
+
+{% comment %}
+    Renders a product card using "Grid" style
+    Accepts:
+    - max_height: {Number} Maximum height of the product's image (required)
+    - product: {Object} Product Liquid object (required)
+    - show_vendor: {Boolean} Show the product's vendor depending on the section setting (optional)
+
+    Usage:
+    {% include 'product-card-grid', max_height: max_height, product: product, show_vendor: section.settings.show_vendor %}
+{% endcomment %}
+
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+
+<style>
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 749px) {
+    .small--one-half {
+      width: 100% !important;
+    } 
+
+    .collection-title {
+      min-height: 0px !important;
+    }
+    .collection-card-5 .price-item--regular {
+      color: #333 !important;
+    }
+    .collection-card-7 .price-item--regular {
+      color: #333 !important;
+    }
+
+    .collection-card-5 .price-item--sale {
+      color: #235f5f !important;
+    }
+    .collection-card-7 .price-item--sale {
+      color: #235f5f !important;
+    }
+
+    .collection-card-5 .collection-h-5 {
+      color: #333 !important;
+    }
+    .collection-card-7 .collection-h-7 {
+      color: #333 !important;
+    }
+
+
+    .collection-card-6 .price-item--regular {
+      color: white !important;
+    }
+    .collection-card-8 .price-item--regular {
+      color: white !important;
+    }
+
+    .collection-card-6 .price-item--sale {
+      color: #f1d0a2 !important;
+    }
+    .collection-card-8 .price-item--sale {
+      color: #f1d0a2 !important;
+    }
+
+    .collection-card-6 .collection-h-6 {
+      color: white !important;
+    }
+    .collection-card-8 .collection-h-8 {
+      color: white !important;
+    }
+
+  }
+
+  .card-collection-brown .price-item--regular {
+  color: #333 ;
+}
+.card-collection-green .price-item--regular {
+  color: white ;
+}
+
+.card-collection-green .price-item--sale {
+  color: #f1d0a2;
+}
+
+</style>
+  <div 
+  data-section-id="{{ section.id }}"
+  data-section-type="product"
+  data-enable-history-state="true"
+  data-ajax-enabled="{{ settings.enable_ajax }}"
+>
+<div class="grid-view-item{% unless product.available %} grid-view-item--sold-out{% endunless %} product-card">
+  <a class="grid-view-item__link grid-view-item__image-container full-width-link">
+    <span class="visually-hidden">{{ product.title }}</span>
+  </a>
+
+  {% capture img_id %}ProductCardImage-{{ section.id }}-{{ product.id }}{% endcapture %}
+  {% capture wrapper_id %}ProductCardImageWrapper-{{ section.id }}-{{ product.id }}{% endcapture %}
+  {%- assign preview_image = product.featured_media.preview_image -%}
+  {%- assign img_url = preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+  {% unless preview_image == blank %}
+    {% include 'image-style', image: preview_image, height: max_height, wrapper_id: wrapper_id, img_id: img_id %}
+  {% endunless %}
+
+  <div class="card-collection card-collection-almapiel {% cycle 'card-collection-brown','card-collection-green','card-collection-brown','card-collection-green','card-collection-green','card-collection-brown','card-collection-green','card-collection-brown', %} {% cycle 'odd-mobile', 'even-mobile', 'odd-mobile','even-mobile','odd-mobile','even-mobile','odd-mobile','even-mobile' %} {% cycle 'collection-card-1', 'collection-card-2', 'collection-card-3', 'collection-card-4', 'collection-card-5', 'collection-card-6', 'collection-card-7', 'collection-card-8', %}">
+  <img id="{{ img_id }}"
+    class="grid-view-item__image lazyload img-card-mobile-product"
+    alt="{{ preview_image.alt }}" data-src="{{ img_url }}"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="{{ preview_image.aspect_ratio }}"
+    data-sizes="auto"
+    data-image 
+    style="padding-top: 20px;max-height: none !important;width: 80%;margin-bottom: 25px; max-width: none !important;"
+  >
+  <div class="container-card text-left" style="margin-top: -7%; margin-right: 5%; margin-bottom: 5%; margin-left: 6%;" id="ProductSection-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product" data-ajax-enabled="{{ settings.enable_ajax }}">
+    <h2 class="collection-title {% cycle 'collection-h-1', 'collection-h-2', 'collection-h-3', 'collection-h-4', 'collection-h-5', 'collection-h-6', 'collection-h-7', 'collection-h-8', %}" style="font-size:16px !important; min-height: 100px !important; padding-top: 5%; margin-bottom: -5% !important;">
+      {{ product.title }}</h2> 
+      <h3 style="padding: 1px;">{% include 'product-price-listing-almapiel', product: product, show_vendor: show_vendor %}</h3>
+
+      <div class="row" style="margin: 0px !important;padding: 0px !important;margin-top: -30px !important;">
+
+        <div class="column" style=" margin: 0px !important; padding: 0px !important; ">
+          <a href="{{ product.url }}" class="btn hero__btn" style="
+            position: relative;
+            z-index: 9999999999999999;
+        ">VER MAS</a> 
+        </div>
+
+
+        <div class="column text-right" style="margin: 0px !important; padding: 0px !important; align-self: flex-end;">
+          <form method="post" action="/cart/add">
+            <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+            {% if product.has_only_default_variant %}
+              <button name="add" id="addToCartText" type="submit" value="Add to cart" style="
+                z-index: 9999999999999999999999;
+                position: relative;
+                border-radius: 50px;
+                padding-left: 15px;
+                padding-right: 15px;
+            " class="btn" data-add-to-cart><i class="fa fa-shopping-cart"></i></button>
+            {% else %}
+            {% endif %}
+          </form> 
+        </div>
+      </div>
+    <div>
+      
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script src="{{ 'theme.js' | asset_url }}" defer="defer">
+$(".site-nav--has-dropdown").onClick(function () {
+  alert("")
+});
+
+  $('form').on('submit', function(evt) {
+    evt.preventDefault();
+  });
+}
+  </script>

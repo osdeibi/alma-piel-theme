@@ -1,0 +1,687 @@
+{% case section.settings.grid %}
+  {% when 2 %}
+    {%- assign max_height = 530 -%}
+  {% when 3 %}
+    {%- assign max_height = 345 -%}
+  {% when 4 %}
+    {%- assign max_height = 250 -%}
+  {% when 5 %}
+    {%- assign max_height = 195 -%}
+{% endcase %}
+
+{% if section.settings.layout == 'grid' %}
+  {%- assign limit = section.settings.grid | times: section.settings.rows -%}
+{% else %}
+  {%- assign limit = 16 -%}
+{% endif %}
+
+{% paginate collection.products by limit %}
+
+<style>
+  td, th {
+    border:none;
+ }
+ 
+h1 {
+  color: black !important;
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+/* Force table to not be like tables anymore */
+table,
+thead,
+tbody,
+th,
+td,
+tr {
+  display: block;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+tr {
+  border: 0px solid transparent;
+}
+
+td {
+  /* Behave  like a "row" */
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+td:before {
+  /* Now like a table header */
+  position: absolute;
+  /* Top/left values mimic padding */
+  top: 6px;
+  left: 6px;
+  width: 45%;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+.hidden-desktop {
+  display: block;
+  margin-bottom: 0em;
+}
+
+dl.price.price--listing.price--on-sale {
+  font-size: 1.5em;
+}
+
+}
+/* Style tab links */
+.tablink {
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+  background-color: transparent !important;
+  border-bottom: 1px solid;
+
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+button:hover, button:focus, button:active, button:visited, .active { 
+  color:#00a4b2;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+}
+
+
+
+</style>
+<div data-section-id="{{ section.id }}" data-section-type="collection-template">
+  <div class="collection-hero hidden-mobile">
+    <div class="collection-hero__image collection-hero__image-almapiel ratio-container js lazyloaded" data-bgset="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner-tecno.png" data-parent-fit="cover" data-image-loading-animation="" style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner-tecno.png&quot;);"><picture style="display: none;"><source data-srcset="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner-tecno.png" sizes="1519px" srcset="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner-tecno.png"><img alt="" class="lazyautosizes lazyloaded ls-is-cached" data-sizes="auto" sizes="1519px"></picture></div>
+    <div class="collection-hero__title-wrapper">
+      
+    </div>
+  </div>
+    <div class="hidden-desktop">
+      <img src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner-tecno.png?v=1630641193">
+    </div> 
+
+
+  <header class="collection-header ">
+    
+    {%- assign is_filter_by_available = false -%}
+    {%- if section.settings.tags_enable and collection.all_tags.size > 0 -%}
+      {%- assign is_filter_by_available = true -%}
+    {%- endif -%}
+
+    {% if section.settings.show_collection_image and collection.image %}
+      <div class="container hidden-mobile" style="padding-left: 210px;padding-right: 210px;">
+      <table width="100%">
+        <tbody>
+        <tr>
+        <td style="width: 40%;">&nbsp;<img data-mce-fragment="1" alt="" src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner-soprano_480x480.png?v=1630638584" data-mce-src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner-soprano_480x480.png?v=1630638584"></td>
+        <td style="width: 60%;">Nuestra tecnología crece para revolucionar el mercado de la depilación láser. En Almapiel contamos con profesionales certificados, formados y habituados en el uso de nuestra tecnología láser. Sabemos cómo adaptar los recursos para entregar nuestro amor por tu piel y obtener así, el mejor y más delicado resultado; el cuidado de tu alma.<br data-mce-fragment="1"><br data-mce-fragment="1">Depilación Láser SOPRANO TITANIUM es la tecnología más eficiente para eliminar en forma definitiva el vello corporal. <br data-mce-fragment="1"><br data-mce-fragment="1">Gracias a su cabezal frío disminuye considerablemente la sensación de dolor, evita quemaduras, su tecnología de depilación SHR (Super Hair Removal) permite una depilación láser más confortable, además de mejorar la piel dañada por la depilación tradicional. Rápido y efectivo en piel clara, oscura y pieles bronceadas, en pelo grueso o fino. Deja tu piel suave y linda. <br data-mce-fragment="1"><br data-mce-fragment="1">Este láser es operado por kinesiólogas certificadas que cumplen estrictos protocolos de atención.</td>
+        </tr>
+        </tbody>
+        </table>
+      </div>
+        <noscript>
+          <div class="collection-hero__image collection-hero__image-almapiel" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
+        </noscript>
+        <div class="collection-hero__title-wrapper">
+          {% comment %} <h1 class="collection-hero__title page-width">
+              <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
+              {{ collection.title }}
+          </h1> {% endcomment %}
+        </div>
+      </div>
+      {% if is_filter_by_available == false and section.settings.sort_enable == false %}
+        <div class="page-width">
+          <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span>
+        </div>
+      {% endif %}
+      {% if collection.description != blank %}
+        <div class="rte collection-description page-width">
+          {{ collection.description }}
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="page-width">
+        <div class="section-header text-center">
+          <h1>
+              <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
+              {{ collection.title }}
+          </h1>
+          {% if collection.description != blank %}
+            <div class="rte">
+              {{ collection.description }}
+            </div>
+          {% endif %}
+          {% if is_filter_by_available == false and section.settings.sort_enable == false %}
+            <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if is_filter_by_available or section.settings.sort_enable %}
+      <div class="visually-hidden filters-toolbar-wrapper{% if is_filter_by_available %} filters-toolbar--has-filter{% endif %}">
+        <div class="page-width">
+          <div class="filters-toolbar">
+            <div class="filters-toolbar__item-wrapper">
+              {% if section.settings.tags_enable %}
+                {% unless collection.all_tags.size == 0 %}
+                  <div class="filters-toolbar__item-child">
+                    <label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' | t }}</label>
+                    <div class="filters-toolbar__input-wrapper select-group">
+                      <select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input>
+                        <option value="{{ collection.url }}">{{ 'collections.filters.all_tags' | t }}</option>
+                        {% for tag in collection.all_tags %}
+                          {%- assign new_url = tag | link_to_tag: tag | split: 'href="' | last | split: '"' | first -%}
+                          <option value="{{ new_url }}"{% if current_tags contains tag %} selected="selected"{% endif %}>{{ tag }}</option>
+                        {% endfor %}
+                      </select>
+                      {% include 'icon-chevron-down' %}
+                    </div>
+                  </div>
+                {% endunless %}
+              {% endif %}
+
+              {% if section.settings.sort_enable %}
+                <div class="filters-toolbar__item-child">
+                  {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+                  <label class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t }}</label>
+                  <div class="filters-toolbar__input-wrapper select-group">
+                    <select name="sort_by" id="SortBy"
+                      class="filters-toolbar__input hidden"
+                      aria-describedby="a11y-refresh-page-message a11y-selection-message"
+                      data-default-sortby="{{ collection.default_sort_by }}"
+                      data-select-input
+                    >
+                      {%- for option in collection.sort_options -%}
+                        <option value="{{ option.value }}" {% if option.value == sort_by %}selected="selected"{% endif %}>{{ option.name }}</option>
+                      {%- endfor -%}
+                    </select>
+                    {% include 'icon-chevron-down' %}
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+
+            <div class="filters-toolbar__item filters-toolbar__item--count">
+              <span class="filters-toolbar__product-count">{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </header>
+
+ 
+<div class="" >
+<button class="tablink" onclick="openPage('soprano', this, 'red')" id="defaultOpen" style=" position: relative; z-index: 9999999999999999; "><span class="span-btn">SOPRANO TITANIUM</span></button>
+<button class="tablink" onclick="openPage('aqua', this, 'green')" style=" position: relative; z-index: 9999999999999999; "><span class="span-btn">AQUA GLO</span></button>
+<button class="tablink" onclick="openPage('dermapen4', this, 'green')" style=" position: relative; z-index: 9999999999999999; "><span class="span-btn">DERMAPEN4</span></button>
+</div>
+<div id="soprano" class="tabcontent" >
+  <h1 style="color: #00a4b2 !important;">Depilación láser: <b>Soprano Titanium</b></h1>
+  <p>Última innovación en depilación láser del mercado. Tecnología TRIO. Desliza para conocer más.</p>
+
+  <div class="text-center">
+  <iframe src="https://cdn.shopify.com/s/files/1/0553/4551/2601/files/SopranoTitanium-B2C_converted.mp4?v=1617658811" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="860" height="615" frameborder="0"></iframe>
+</div>
+
+
+  <h1 style=" margin-top: 60px; ">Tecnología TRIO</h1>
+<p>Nuestra tecnología presenta la más avanzada solución en 
+depilación definitiva debido a que posee la combinación de 3 
+longitudes de onda. Esta tecnología TRÍO permite alcanzar de 
+forma simultánea diferentes profundidades y estructuras, posicionándose 
+además, como lo más innovador en el mercado de depilación láser.</p>
+
+<ul class="grid grid--uniform grid--view-items" style="
+  margin: 60px;
+  margin-left: 0px;
+">
+
+<li class="grid__item grid__item--small--one-half medium-up--one-third" style="
+  margin-bottom: 4em;
+">
+<div class="grid-view-item product-card" style="
+  border: 1px solid #f1d0a2;
+">
+  <div class="card-collection card-collection-almapiel card-collection-brown" style="
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: -1px 0px 0px 0px;
+">
+    <img class="img-card-collection" src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/alex.png" alt="">
+  </div>
+  <div class="container" style="
+    margin: 20px;
+">
+    <p>
+    Su longitud presenta excelentes resultados en pelo fino y de color claro. 
+    Con una capacidad de penetración  especialmente eficaz en el pelo que se encuentra en 
+    un nivel muy superficial de la piel, como las cejas o el labio superior.
+  </p>
+  </div>
+</div>
+</li>
+
+<li class="grid__item grid__item--small--one-half medium-up--one-third" style="
+  margin-bottom: 4em;
+">
+<div class="grid-view-item product-card" style="
+  border: 1px solid #00a4b2;
+">
+  <div class="card-collection card-collection-almapiel card-collection-green" style="
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: -1px 0px 0px 0px;
+">
+    <img class="img-card-collection" src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/diodo.png" alt="">
+  </div>
+  <div class="container" style="
+    margin: 20px;
+">
+    <p>
+      Con una capacidad moderada de absorción por la melanina, resulta muy seguro para tratar pieles oscuras. 
+      Tiene una profunda capacidad de penetración, ideal para las áreas de los brazos, las piernas, las mejillas y la barba.
+  </p>
+  </div>
+</div>
+</li>
+
+<li class="grid__item grid__item--small--one-half medium-up--one-third" style="
+  margin-bottom: 4em;
+">
+<div class="grid-view-item product-card" style="
+  border: 1px solid #f1d0a2;
+">
+  <div class="card-collection card-collection-almapiel card-collection-brown" style="
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: -1px 0px 0px 0px;
+">
+    <img class="img-card-collection" src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/yag.png" alt="">
+  </div>
+  <div class="container" style="
+    margin: 20px;
+">
+    <p>
+      Solución enfocada para tratar las pieles más oscuras. Ofrece la 
+      penetración más profunda del folículo piloso, para tratar el pelo que está 
+      incrustado en áreas como el cuero cabelludo, los brazos y áreas púbicas.
+  </p>
+  </div>
+</div>
+</li>
+
+</ul>
+
+
+<h1>Beneficios</h1>
+<div class="text-center">
+<img src="https://cdn.shopify.com/s/files/1/0553/4551/2601/files/beneficios_1024x1024.jpg?v=1616593434" alt="" style="margin: 0pxpx 0pxpx 0pxpx 0pxpx; float: none;">
+</div>
+
+</div>
+
+<div id="aqua" class="tabcontent" >
+  <h1 style="color: #00a4b2 !important;">Limpieza facial: <b>AquaGlo</b></h1>
+  <p>En nuestros tratamientos de limpieza facial utilizamos AquaGlo, 
+  un equipo que logra una profunda limpieza facial y un natural rejuvenecimiento 
+  de la piel. Mejora los tonos desiguales, se mejora la calidad de la piel con unos poros 
+  más cerrados, dejando una piel suave e hidratada. Los Serum utilizados son no invasivos y 
+  los resultados son visibles en la primera sesión.</p>
+  <div class="text-center">
+    <img src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/Frame_1.png" alt="" style="margin: 0pxpx 0pxpx 0pxpx 0pxpx; float: none;">
+    </div>
+</div>
+
+<div id="dermapen4" class="tabcontent" >
+  <h1 style="color: #00a4b2 !important;">Skincare:<b> Dermapen 4</b></h1>
+  <p>Dispositivo electrónico de tecnología avanzada con “16 microagujas verticales oscilantes” que disminuyen el trauma provocado en la piel. 
+  Las agujas pueden penetrar hasta 3 mm, mejorando la producción de colágeno y elastina.
+  Ajuste automático de velocidad y penetración para un mejor resultado.
+  Sistema anti-contaminación sin arrastre ni reflujo de fluidos para impedir la contaminación cruzada.
+  104% más rápido que otros dispositivos.
+  </p>
+  <div class="text-center">
+    <img src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/Frame_2.png" alt="" style="margin: 0pxpx 0pxpx 0pxpx 0pxpx; float: none;">
+    </div>
+    <div class="text-center" style=" margin-top: 60px; ">
+      <img src="https://cdn.shopify.com/s/files/1/0591/9431/0837/files/banner.png" alt="" style="margin: 0pxpx 0pxpx 0pxpx 0pxpx; float: none;">
+      </div>
+  </div>
+</div>
+
+
+
+{% endpaginate %}
+
+<script>
+  function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+
+  var $buttons = jQuery('button');
+$buttons.on('click',function() {
+  jQuery(this).toggleClass('active').siblings('button').removeClass('active');
+})
+  </script>
+
+{% schema %}
+{
+  "name": {
+    "cs": "Stránky s kolekcemi",
+    "da": "Kollektionssider",
+    "de": "Kategorie-Seiten",
+    "en": "Collection pages",
+    "es": "Páginas de colección",
+    "fi": "Kokoelman sivut",
+    "fr": "Pages de collections",
+    "it": "Pagine di collezioni",
+    "ja": "コレクションページ",
+    "ko": "컬렉션 페이지",
+    "nb": "Samlingssider",
+    "nl": "Collectiepagina's",
+    "pl": "Strony kolekcji",
+    "pt-BR": "Páginas de coleções",
+    "pt-PT": "Páginas de coleções",
+    "sv": "Produktseriesidor",
+    "th": "หน้าคอลเลกชัน",
+    "tr": "Koleksiyon sayfaları",
+    "vi": "Trang bộ sưu tập",
+    "zh-CN": "产品系列页面",
+    "zh-TW": "商品系列頁面"
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "layout",
+      "label": {
+        "cs": "Rozvržení",
+        "da": "Layout",
+        "de": "Layout",
+        "en": "Layout",
+        "es": "Diseño",
+        "fi": "Asettelu",
+        "fr": "Mise en page",
+        "it": "Layout",
+        "ja": "レイアウト",
+        "ko": "레이아웃",
+        "nb": "Oppsett",
+        "nl": "Opmaak",
+        "pl": "Układ",
+        "pt-BR": "Layout",
+        "pt-PT": "Esquema",
+        "sv": "Layout",
+        "th": "เลย์เอาต์",
+        "tr": "Düzen",
+        "vi": "Bố cục",
+        "zh-CN": "布局",
+        "zh-TW": "版面配置"
+      },
+      "default": "grid",
+      "options": [
+        {
+          "value": "grid",
+          "label": {
+            "cs": "Mřížka",
+            "da": "Gitter",
+            "de": "Raster",
+            "en": "Grid",
+            "es": "Cuadrícula",
+            "fi": "Ruudukko",
+            "fr": "Grille",
+            "it": "Griglia",
+            "ja": "グリッド",
+            "ko": "그리드",
+            "nb": "Rutenett",
+            "nl": "Grid",
+            "pl": "Siatka",
+            "pt-BR": "Grade",
+            "pt-PT": "Grelha",
+            "sv": "Rutnät",
+            "th": "กริด",
+            "tr": "Izgara",
+            "vi": "Lưới",
+            "zh-CN": "网格",
+            "zh-TW": "網格"
+          }
+        },
+        {
+          "value": "list",
+          "label": {
+            "cs": "Seznam",
+            "da": "Liste",
+            "de": "Liste",
+            "en": "List",
+            "es": "Lista",
+            "fi": "Luettelo",
+            "fr": "Liste",
+            "it": "Elenco",
+            "ja": "リスト",
+            "ko": "목록",
+            "nb": "Liste",
+            "nl": "Lijst",
+            "pl": "Lista",
+            "pt-BR": "Lista",
+            "pt-PT": "Lista",
+            "sv": "Lista",
+            "th": "รายการ",
+            "tr": "Liste",
+            "vi": "Danh sách",
+            "zh-CN": "列表",
+            "zh-TW": "清單"
+          }
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "label": {
+        "cs": "Počet produktů na řádek (jen mřížka)",
+        "da": "Produkter pr. række (kun gitter)",
+        "de": "Produkte per Reihe (nur Raster)",
+        "en": "Products per row (grid only)",
+        "es": "Productos por fila (solo cuadrícula)",
+        "fi": "Tuotteita per rivi (vain ruudukko)",
+        "fr": "Produits par rangée (grille uniquement)",
+        "it": "Prodotti per riga (solo griglia)",
+        "ja": "行あたりの商品数（グリッドのみ）",
+        "ko": "열 별 제품 (그리드 전용)",
+        "nb": "Produkter per rad (kun rutenett)",
+        "nl": "Producten per rij (alleen grid)",
+        "pl": "Liczba produktów na wiersz (tylko siatka)",
+        "pt-BR": "Produtos por linha (somente grade)",
+        "pt-PT": "Produtos por linha (somente grelha)",
+        "sv": "Produkter per rad (endast rutnät)",
+        "th": "สินค้าต่อแถว (กริดเท่านั้น)",
+        "tr": "Satır başına ürün (yalnızca ızgara)",
+        "vi": "Số sản phẩm trên một hàng (chỉ ở kiểu lưới)",
+        "zh-CN": "每行产品数（仅限网格）",
+        "zh-TW": "每列產品數 (僅限網格)"
+      },
+      "default": 4,
+      "min": 2,
+      "max": 5,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "rows",
+      "label": {
+        "cs": "Počet řádků na stránku (jen mřížka)",
+        "da": "Rækker pr. side (kun gitter)",
+        "de": "Reihen per Seite (nur Raster)",
+        "en": "Rows per page (grid only)",
+        "es": "Filas por página (solo cuadrícula)",
+        "fi": "Rivejä per sivu (vain ruudukko)",
+        "fr": "Rangées par page (grille uniquement)",
+        "it": "Righe per pagina (solo griglia)",
+        "ja": "ページあたりの行数（グリッドのみ）",
+        "ko": "페이지 별 열 (그리드 전용)",
+        "nb": "Rader per side (kun rutenett)",
+        "nl": "Rijen per pagina (alleen grid)",
+        "pl": "Liczba wierszy na stronę (tylko siatka)",
+        "pt-BR": "Linhas por página (somente grade)",
+        "pt-PT": "Linhas por página (somente grelha)",
+        "sv": "Rader per sida (endast rutnät)",
+        "th": "แถวต่อหน้า (กริดเท่านั้น)",
+        "tr": "Sayfa başına satır (yalnızca ızgara)",
+        "vi": "Số hàng trong một trang (chỉ ở kiểu lưới)",
+        "zh-CN": "每行产品数（仅限网格）",
+        "zh-TW": "每頁列數 (僅限網格)"
+      },
+      "default": 2,
+      "min": 2,
+      "max": 8,
+      "step": 1
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collection_image",
+      "label": {
+        "cs": "Zobrazit obrázek kolekce",
+        "da": "Vis kollektionsbillede",
+        "de": "Kategorie-Foto anzeigen",
+        "en": "Show collection image",
+        "es": "Mostrar imagen de la colección",
+        "fi": "Näytä kokoelman kuva",
+        "fr": "Afficher l'image de la collection",
+        "it": "Mostra immagine collezione",
+        "ja": "コレクションの画像を表示する",
+        "ko": "컬렉션 이미지 표시",
+        "nb": "Vis samlingsbilde",
+        "nl": "Collectieafbeelding weergeven",
+        "pl": "Pokaż obraz kolekcji",
+        "pt-BR": "Exibir imagem da coleção",
+        "pt-PT": "Mostrar imagem da coleção",
+        "sv": "Visa produktseriebilder",
+        "th": "แสดงรูปภาพคอลเลกชัน",
+        "tr": "Koleksiyon görselini göster",
+        "vi": "Hiển thị hình ảnh bộ sưu tập",
+        "zh-CN": "显示产品系列图片",
+        "zh-TW": "顯示商品系列圖片"
+      },
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": {
+        "cs": "Zobrazit dodavatele produktů",
+        "da": "Vis produktleverandører",
+        "de": "Produktanbieter anzeigen",
+        "en": "Show product vendors",
+        "es": "Mostrar proveedores del producto",
+        "fi": "Näytä tuotteen myyjät",
+        "fr": "Afficher les vendeurs",
+        "it": "Mostra fornitori prodotto",
+        "ja": "商品の販売元を表示する",
+        "ko": "제품 공급 업체 표시",
+        "nb": "Vis produktleverandører",
+        "nl": "Productleveranciers weergeven",
+        "pl": "Pokaż dostawców produktu",
+        "pt-BR": "Exibir fabricantes do produto",
+        "pt-PT": "Mostrar fornecedores do produto",
+        "sv": "Visa produktleverantörer",
+        "th": "แสดงผู้ขายสินค้า",
+        "tr": "Ürün satıcılarını göster",
+        "vi": "Hiển thị nhà cung cấp sản phẩm",
+        "zh-CN": "显示产品厂商",
+        "zh-TW": "顯示產品廠商"
+      },
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "sort_enable",
+      "label": {
+        "cs": "Povolit řazení",
+        "da": "Aktivér sortering",
+        "de": "Sortieren erlauben",
+        "en": "Enable sorting",
+        "es": "Habilitar la función ordenar",
+        "fi": "Ota lajittelu käyttöön",
+        "fr": "Activer le tri",
+        "it": "Permetti di ordinare",
+        "ja": "並べ替えを有効にする",
+        "ko": "정렬 사용",
+        "nb": "Aktiver sortering",
+        "nl": "Sortering inschakelen",
+        "pl": "Włącz sortowanie",
+        "pt-BR": "Habilitar organização",
+        "pt-PT": "Ativar ordenação",
+        "sv": "Aktivera sortering",
+        "th": "เปิดใช้การจัดเรียง",
+        "tr": "Sıralamayı etkinleştir",
+        "vi": "Bật phân loại",
+        "zh-CN": "启用排序",
+        "zh-TW": "啟用排序"
+      },
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "tags_enable",
+      "label": {
+        "cs": "Povolit filtrování podle štítku",
+        "da": "Aktivér tagfiltrering",
+        "de": "Tag-Filtern erlauben",
+        "en": "Enable tag filtering",
+        "es": "Habilitar filtro de etiquetas",
+        "fi": "Ota tunnisteiden suodatus käyttöön",
+        "fr": "Activer le filtrage par balises",
+        "it": "Attiva filtro tag",
+        "ja": "タグでの絞り込みを有効にする",
+        "ko": "태그 필터링 사용",
+        "nb": "Aktiver taggfiltrering",
+        "nl": "Filteren op tags inschakelen",
+        "pl": "Włącz filtrowanie tagów",
+        "pt-BR": "Habilitar filtragem de tags",
+        "pt-PT": "Ativar filtragem por etiqueta",
+        "sv": "Aktivera taggfiltrering",
+        "th": "เปิดใช้การกรองแท็ก",
+        "tr": "Etiket filtrelemeyi etkinleştir",
+        "vi": "Bật lọc thẻ",
+        "zh-CN": "启用标签筛选",
+        "zh-TW": "啟用標籤篩選功能"
+      },
+      "default": true
+    }
+  ]
+}
+{% endschema %}
