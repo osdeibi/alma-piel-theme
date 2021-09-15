@@ -514,17 +514,6 @@
               "button_link": "shopify:\/\/collections\/depilacion-laser-mujer"
             }
           },
-          "a37ab67a-2462-4eea-b02c-b96797e55f2c": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner2-negro.jpg",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": "shopify:\/\/collections\/promociones-mujer"
-            }
-          },
           "e11910df-99b2-4aff-babd-6e1b09ff4349": {
             "type": "image",
             "settings": {
@@ -541,7 +530,6 @@
           "b1b2bce2-97d4-499e-b12a-d3b2b9c2304f",
           "cdaee979-e664-4ef2-a3e9-bb517c7265f6",
           "28224330-2948-455f-8884-fc8601094c41",
-          "a37ab67a-2462-4eea-b02c-b96797e55f2c",
           "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
         "settings": {
@@ -583,7 +571,7 @@
           "16316685475505529c-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_mobile_hombre.png",
+              "image": "shopify:\/\/shop_images\/banner_home_mobile_hombre_1.png",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
