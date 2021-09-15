@@ -643,6 +643,20 @@
           "button_label": "Conoce la tecnología trío",
           "button_link": ""
         }
+      },
+      "1631669320e2778f03": {
+        "type": "hero-mobile",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Frame_20.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "VER GIFTCARDS",
+          "button_link": "shopify:\/\/collections\/giftcards"
+        }
       }
     },
     "content_for_index": [
@@ -656,6 +670,7 @@
       "1631669262e93ee098",
       "161617863296c1035e",
       "1617116903c2c29c95",
+      "1631669320e2778f03",
       "161835032156f272c4"
     ]
   },
