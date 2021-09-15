@@ -615,11 +615,23 @@
               "button_label": "CONOCER MÁS",
               "button_link": "https:\/\/almapiel.cl\/collections\/promociones-depilacion-hombre"
             }
+          },
+          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Frame-17b.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": "https:\/\/almapiel.cl\/collections\/depilacion-laser-mujer"
+            }
           }
         },
         "block_order": [
           "16316685475505529c-1",
-          "16316685475505529c-0"
+          "16316685475505529c-0",
+          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9"
         ],
         "settings": {
           "slideshow_height": "adapt",
