@@ -630,10 +630,11 @@
           "712a7599-ca09-4980-8b54-fa1d2c58fef5": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_19_121bdce4-a6c7-4f51-b352-d8caa9eb0398.jpg",
               "alignment": "center center",
-              "slide_title": "Diapositiva de imagen",
-              "subheading": "Cuenta la historia de tu marca a través de videos e imágenes",
-              "button_label": "",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
           }
