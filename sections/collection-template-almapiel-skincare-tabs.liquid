@@ -274,7 +274,7 @@ button:hover, button:focus, button:active, button:visited, .active {
     {% endcase %}
   
     <ul class="grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
-  {% for product in collections["sesion-individual-mantenciones"].products %}
+  {% for product in collections["mantenciones"].products %}
     <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
       {% include 'product-card-grid-almapiel-notpair', max_height: max_height, product: product, show_vendor: section.settings.show_vendor %}
     </li>
@@ -311,7 +311,7 @@ button:hover, button:focus, button:active, button:visited, .active {
     {% endcase %}
   
     <ul class="grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
-  {% for product in collections["packs-mujer"].products %}
+  {% for product in collections["promociones-mujer"].products %}
     <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
       {% include 'product-card-grid-almapiel-pair', max_height: max_height, product: product, show_vendor: section.settings.show_vendor %}
     </li>
@@ -348,7 +348,7 @@ button:hover, button:focus, button:active, button:visited, .active {
     {% endcase %}
   
     <ul class="grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
-  {% for product in collections["packs-hombre"].products %}
+  {% for product in collections["promociones-hombre"].products %}
     <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
       {% include 'product-card-grid-almapiel-notpair', max_height: max_height, product: product, show_vendor: section.settings.show_vendor %}
     </li>
