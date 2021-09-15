@@ -247,32 +247,6 @@
           "show_currency_selector": false
         }
       },
-      "16159953868dbca50b": {
-        "type": "collection-list",
-        "disabled": true,
-        "blocks": {
-          "1615995386e16364ff-0": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "promociones-mujer"
-            }
-          },
-          "1615995386e16364ff-1": {
-            "type": "featured_collection",
-            "settings": {
-              "collection": "promociones-hombre"
-            }
-          }
-        },
-        "block_order": [
-          "1615995386e16364ff-0",
-          "1615995386e16364ff-1"
-        ],
-        "settings": {
-          "title": "",
-          "grid": 2
-        }
-      },
       "collection-template": {
         "type": "collection-template",
         "settings": {
@@ -385,6 +359,7 @@
       },
       "161651440322ca7421": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "161651440322ca7421-0": {
             "type": "featured_collection",
@@ -693,6 +668,73 @@
           "sort_enable": true,
           "tags_enable": true
         }
+      },
+      "16317118999efc92df": {
+        "type": "collection-list-almapiel",
+        "blocks": {
+          "16317118999efc92df-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "depilacion-laser-mujer"
+            }
+          },
+          "16317118999efc92df-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "depilacion-laser-hombre"
+            }
+          },
+          "16317118999efc92df-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "promociones-mujer"
+            }
+          },
+          "4796455e-68a9-4e53-8247-d46bf37ffe5c": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "promociones-hombre"
+            }
+          },
+          "a7f614ed-4e58-4734-b1f5-cbcc53ced2a8": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "limpieza-facial-profunda"
+            }
+          },
+          "199dd7db-73da-46fe-b632-6a326016cdf3": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "shot-de-vitaminas-facial"
+            }
+          },
+          "74e66286-cf78-49bb-a1a8-585cecd60c85": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "tratamientos-con-dermapen-4"
+            }
+          },
+          "ac4e751a-e9c2-4b23-b3f2-95c5c4600c9d": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "16317118999efc92df-0",
+          "16317118999efc92df-1",
+          "16317118999efc92df-2",
+          "4796455e-68a9-4e53-8247-d46bf37ffe5c",
+          "a7f614ed-4e58-4734-b1f5-cbcc53ced2a8",
+          "199dd7db-73da-46fe-b632-6a326016cdf3",
+          "74e66286-cf78-49bb-a1a8-585cecd60c85",
+          "ac4e751a-e9c2-4b23-b3f2-95c5c4600c9d"
+        ],
+        "settings": {
+          "title": "Lista de colecciones AlmaPiel",
+          "grid": 4
+        }
       }
     },
     "content_for_index": [
@@ -701,7 +743,7 @@
       "hero-1",
       "16161731078f79236e",
       "161651440322ca7421",
-      "16159953868dbca50b",
+      "16317118999efc92df",
       "hero-2",
       "1631669262e93ee098",
       "161617863296c1035e",
