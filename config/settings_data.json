@@ -630,31 +630,18 @@
           "autorotate_speed": 5
         }
       },
-      "1631668635b53df306": {
-        "type": "slideshow-mobile",
-        "blocks": {
-          "1631668635b53df306-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Frame_18.jpg",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1631668635b53df306-0"
-        ],
+      "1631669262e93ee098": {
+        "type": "hero-mobile",
         "settings": {
-          "slideshow_height": "adapt",
+          "image": "shopify:\/\/shop_images\/Frame_18.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
           "text_size": "medium",
-          "text_alignment": "center center",
-          "show_overlay": true,
-          "autorotate": false,
-          "autorotate_speed": 5
+          "title": "",
+          "text": "",
+          "button_label": "Conoce la tecnología trío",
+          "button_link": ""
         }
       }
     },
@@ -666,7 +653,7 @@
       "161651440322ca7421",
       "16159953868dbca50b",
       "hero-2",
-      "1631668635b53df306",
+      "1631669262e93ee098",
       "161617863296c1035e",
       "1617116903c2c29c95",
       "161835032156f272c4"
