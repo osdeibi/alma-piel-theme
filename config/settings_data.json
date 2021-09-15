@@ -601,8 +601,8 @@
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
-              "button_label": "",
-              "button_link": ""
+              "button_label": "CONOCER MÁS",
+              "button_link": "https:\/\/almapiel.cl\/collections\/promociones-depilacion-mujer"
             }
           },
           "16316685475505529c-0": {
@@ -629,6 +629,33 @@
           "autorotate": false,
           "autorotate_speed": 5
         }
+      },
+      "1631668635b53df306": {
+        "type": "slideshow-mobile",
+        "blocks": {
+          "1631668635b53df306-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_18.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1631668635b53df306-0"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
       }
     },
     "content_for_index": [
@@ -639,6 +666,7 @@
       "161651440322ca7421",
       "16159953868dbca50b",
       "hero-2",
+      "1631668635b53df306",
       "161617863296c1035e",
       "1617116903c2c29c95",
       "161835032156f272c4"
