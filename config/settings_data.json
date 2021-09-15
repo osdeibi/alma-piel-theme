@@ -506,6 +506,28 @@
       "16182498236e89bff3": {
         "type": "slideshow",
         "blocks": {
+          "b1b2bce2-97d4-499e-b12a-d3b2b9c2304f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner_home_desktop_mujer_64a04cea-ef96-4302-939d-0d8e07d034fd.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "cdaee979-e664-4ef2-a3e9-bb517c7265f6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner_home_desktop_hombre_093bfcac-0b98-4ebc-bedc-fe42d2318326.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
             "settings": {
@@ -538,24 +560,14 @@
               "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
-          },
-          "cdaee979-e664-4ef2-a3e9-bb517c7265f6": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_desktop_hombre_093bfcac-0b98-4ebc-bedc-fe42d2318326.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
+          "b1b2bce2-97d4-499e-b12a-d3b2b9c2304f",
+          "cdaee979-e664-4ef2-a3e9-bb517c7265f6",
           "28224330-2948-455f-8884-fc8601094c41",
           "a37ab67a-2462-4eea-b02c-b96797e55f2c",
-          "e11910df-99b2-4aff-babd-6e1b09ff4349",
-          "cdaee979-e664-4ef2-a3e9-bb517c7265f6"
+          "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
         "settings": {
           "slideshow_height": "adapt",
