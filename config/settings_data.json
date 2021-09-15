@@ -594,17 +594,6 @@
       "16316685475505529c": {
         "type": "slideshow-mobile",
         "blocks": {
-          "16316685475505529c-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_mobile_hombre.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "16316685475505529c-1": {
             "type": "image",
             "settings": {
@@ -615,11 +604,22 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "16316685475505529c-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner_home_mobile_hombre.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
-          "16316685475505529c-0",
-          "16316685475505529c-1"
+          "16316685475505529c-1",
+          "16316685475505529c-0"
         ],
         "settings": {
           "slideshow_height": "adapt",
