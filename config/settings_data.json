@@ -626,12 +626,23 @@
               "button_label": "CONOCER MÁS",
               "button_link": "https:\/\/almapiel.cl\/collections\/depilacion-laser-mujer"
             }
+          },
+          "712a7599-ca09-4980-8b54-fa1d2c58fef5": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Diapositiva de imagen",
+              "subheading": "Cuenta la historia de tu marca a través de videos e imágenes",
+              "button_label": "",
+              "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
+            }
           }
         },
         "block_order": [
           "16316685475505529c-1",
           "16316685475505529c-0",
-          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9"
+          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
+          "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
         "settings": {
           "slideshow_height": "adapt",
