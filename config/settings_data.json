@@ -681,6 +681,18 @@
           "button_label": "VER GIFTCARDS",
           "button_link": "shopify:\/\/collections\/giftcards"
         }
+      },
+      "collection-template-almapiel": {
+        "type": "collection-template-almapiel",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 8,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
       }
     },
     "content_for_index": [
