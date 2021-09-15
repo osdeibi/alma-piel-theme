@@ -506,28 +506,6 @@
       "16182498236e89bff3": {
         "type": "slideshow",
         "blocks": {
-          "62593ffd-73e5-40af-b767-e61e168e56b2": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_desktop_mujer.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "f1fafecf-3e00-44fc-bbb4-3a69bb0d619c": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_desktop_hombre.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
             "settings": {
@@ -563,8 +541,6 @@
           }
         },
         "block_order": [
-          "62593ffd-73e5-40af-b767-e61e168e56b2",
-          "f1fafecf-3e00-44fc-bbb4-3a69bb0d619c",
           "28224330-2948-455f-8884-fc8601094c41",
           "a37ab67a-2462-4eea-b02c-b96797e55f2c",
           "e11910df-99b2-4aff-babd-6e1b09ff4349"
@@ -590,9 +566,47 @@
           "video_title": "¿SABÍAS QUE TU PIEL TE CONOCE MEJOR QUE TU?",
           "text_size": "medium"
         }
+      },
+      "16316685475505529c": {
+        "type": "slideshow-mobile",
+        "blocks": {
+          "16316685475505529c-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Diapositiva de imagen",
+              "subheading": "Cuenta la historia de tu marca a través de videos e imágenes",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "16316685475505529c-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Diapositiva de imagen",
+              "subheading": "Cuenta la historia de tu marca a través de videos e imágenes",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "16316685475505529c-0",
+          "16316685475505529c-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
       }
     },
     "content_for_index": [
+      "16316685475505529c",
       "16182498236e89bff3",
       "hero-1",
       "16161731078f79236e",
