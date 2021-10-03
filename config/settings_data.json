@@ -557,6 +557,17 @@
       "16316685475505529c": {
         "type": "slideshow-mobile",
         "blocks": {
+          "7c7b974f-04d5-4a08-9c53-26a9271bc5c0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BANNER_CEL.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
             "type": "image",
             "settings": {
@@ -566,6 +577,17 @@
               "subheading": "",
               "button_label": "CONOCER MÁS",
               "button_link": "https:\/\/almapiel.cl\/collections\/depilacion-laser-mujer"
+            }
+          },
+          "2e43e705-94f6-4403-81a5-c681dff83cf4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BANNER_CEL2.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
             }
           },
           "712a7599-ca09-4980-8b54-fa1d2c58fef5": {
@@ -581,7 +603,9 @@
           }
         },
         "block_order": [
+          "7c7b974f-04d5-4a08-9c53-26a9271bc5c0",
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
+          "2e43e705-94f6-4403-81a5-c681dff83cf4",
           "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
         "settings": {
