@@ -481,6 +481,17 @@
       "16182498236e89bff3": {
         "type": "slideshow",
         "blocks": {
+          "2fdd1969-77ea-4732-95c5-ed5edcdc0c8f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BANNER_WEB.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
             "settings": {
@@ -490,6 +501,16 @@
               "subheading": "",
               "button_label": "CONOCER MÁS",
               "button_link": "shopify:\/\/collections\/depilacion-laser-mujer"
+            }
+          },
+          "92d4bb34-9837-41f6-8695-073bdae943ce": {
+            "type": "image",
+            "settings": {
+              "alignment": "center center",
+              "slide_title": "Diapositiva de imagen",
+              "subheading": "Cuenta la historia de tu marca a través de videos e imágenes",
+              "button_label": "",
+              "button_link": ""
             }
           },
           "e11910df-99b2-4aff-babd-6e1b09ff4349": {
@@ -505,7 +526,9 @@
           }
         },
         "block_order": [
+          "2fdd1969-77ea-4732-95c5-ed5edcdc0c8f",
           "28224330-2948-455f-8884-fc8601094c41",
+          "92d4bb34-9837-41f6-8695-073bdae943ce",
           "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
         "settings": {
