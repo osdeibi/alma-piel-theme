@@ -506,9 +506,10 @@
           "92d4bb34-9837-41f6-8695-073bdae943ce": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BANNER_WEB2.jpg",
               "alignment": "center center",
-              "slide_title": "Diapositiva de imagen",
-              "subheading": "Cuenta la historia de tu marca a través de videos e imágenes",
+              "slide_title": "",
+              "subheading": "",
               "button_label": "",
               "button_link": ""
             }
