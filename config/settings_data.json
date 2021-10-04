@@ -481,26 +481,15 @@
       "16182498236e89bff3": {
         "type": "slideshow",
         "blocks": {
-          "b1b2bce2-97d4-499e-b12a-d3b2b9c2304f": {
+          "2fdd1969-77ea-4732-95c5-ed5edcdc0c8f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_desktop_mujer_097b31fd-2d23-4421-ba2c-ee2eb8c75702.png",
+              "image": "shopify:\/\/shop_images\/BANNER_WEB.jpg",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
-              "button_label": "CONOCER MÁS",
-              "button_link": "https:\/\/almapiel.cl\/collections\/promociones-depilacion-mujer"
-            }
-          },
-          "cdaee979-e664-4ef2-a3e9-bb517c7265f6": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_desktop_hombre_7a0a17b5-e736-499a-89b2-61c38dfabc94.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "CONOCER MÁS",
-              "button_link": "https:\/\/almapiel.cl\/collections\/promociones-depilacion-hombre"
+              "button_label": "",
+              "button_link": ""
             }
           },
           "28224330-2948-455f-8884-fc8601094c41": {
@@ -512,6 +501,17 @@
               "subheading": "",
               "button_label": "CONOCER MÁS",
               "button_link": "shopify:\/\/collections\/depilacion-laser-mujer"
+            }
+          },
+          "92d4bb34-9837-41f6-8695-073bdae943ce": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BANNER_WEB2.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
             }
           },
           "e11910df-99b2-4aff-babd-6e1b09ff4349": {
@@ -527,9 +527,9 @@
           }
         },
         "block_order": [
-          "b1b2bce2-97d4-499e-b12a-d3b2b9c2304f",
-          "cdaee979-e664-4ef2-a3e9-bb517c7265f6",
+          "2fdd1969-77ea-4732-95c5-ed5edcdc0c8f",
           "28224330-2948-455f-8884-fc8601094c41",
+          "92d4bb34-9837-41f6-8695-073bdae943ce",
           "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
         "settings": {
@@ -557,26 +557,15 @@
       "16316685475505529c": {
         "type": "slideshow-mobile",
         "blocks": {
-          "16316685475505529c-1": {
+          "7c7b974f-04d5-4a08-9c53-26a9271bc5c0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_mobile_mujer_2b6229ee-2b8c-4219-aede-d9e96b1263f7.png",
+              "image": "shopify:\/\/shop_images\/BANNER_CEL.jpg",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
-              "button_label": "CONOCER MÁS",
-              "button_link": "https:\/\/almapiel.cl\/collections\/promociones-depilacion-mujer"
-            }
-          },
-          "16316685475505529c-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_mobile_hombre_1480e359-0548-4ff9-a4b4-47661db47c40.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "CONOCER MÁS",
-              "button_link": "https:\/\/almapiel.cl\/collections\/promociones-depilacion-hombre"
+              "button_label": "",
+              "button_link": ""
             }
           },
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
@@ -588,6 +577,17 @@
               "subheading": "",
               "button_label": "CONOCER MÁS",
               "button_link": "https:\/\/almapiel.cl\/collections\/depilacion-laser-mujer"
+            }
+          },
+          "2e43e705-94f6-4403-81a5-c681dff83cf4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BANNER_CEL2.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
             }
           },
           "712a7599-ca09-4980-8b54-fa1d2c58fef5": {
@@ -603,9 +603,9 @@
           }
         },
         "block_order": [
-          "16316685475505529c-1",
-          "16316685475505529c-0",
+          "7c7b974f-04d5-4a08-9c53-26a9271bc5c0",
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
+          "2e43e705-94f6-4403-81a5-c681dff83cf4",
           "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
         "settings": {
