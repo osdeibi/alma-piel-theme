@@ -481,17 +481,6 @@
       "16182498236e89bff3": {
         "type": "slideshow",
         "blocks": {
-          "2fdd1969-77ea-4732-95c5-ed5edcdc0c8f": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_desktop_cyber_2.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
             "settings": {
@@ -501,17 +490,6 @@
               "subheading": "",
               "button_label": "CONOCER MÁS",
               "button_link": "shopify:\/\/collections\/depilacion-laser-mujer"
-            }
-          },
-          "92d4bb34-9837-41f6-8695-073bdae943ce": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_desktop_cyber_Hombre_2.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
             }
           },
           "e11910df-99b2-4aff-babd-6e1b09ff4349": {
@@ -527,9 +505,7 @@
           }
         },
         "block_order": [
-          "2fdd1969-77ea-4732-95c5-ed5edcdc0c8f",
           "28224330-2948-455f-8884-fc8601094c41",
-          "92d4bb34-9837-41f6-8695-073bdae943ce",
           "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
         "settings": {
@@ -557,17 +533,6 @@
       "16316685475505529c": {
         "type": "slideshow-mobile",
         "blocks": {
-          "7c7b974f-04d5-4a08-9c53-26a9271bc5c0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_mobile_cyber_1.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
             "type": "image",
             "settings": {
@@ -577,17 +542,6 @@
               "subheading": "",
               "button_label": "CONOCER MÁS",
               "button_link": "https:\/\/almapiel.cl\/collections\/depilacion-laser-mujer"
-            }
-          },
-          "2e43e705-94f6-4403-81a5-c681dff83cf4": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner_home_mobile_cyber_Hombre_1.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
             }
           },
           "712a7599-ca09-4980-8b54-fa1d2c58fef5": {
@@ -603,9 +557,7 @@
           }
         },
         "block_order": [
-          "7c7b974f-04d5-4a08-9c53-26a9271bc5c0",
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
-          "2e43e705-94f6-4403-81a5-c681dff83cf4",
           "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
         "settings": {
