@@ -583,8 +583,21 @@
           },
           "72a98c3e-d926-4979-965c-53b53606f97e": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/halloween-mobile_H1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "9c961359-7d43-482d-82d6-93c95095c7ea": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/halloween-mobile_M1.png",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
@@ -596,7 +609,8 @@
         "block_order": [
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
           "712a7599-ca09-4980-8b54-fa1d2c58fef5",
-          "72a98c3e-d926-4979-965c-53b53606f97e"
+          "72a98c3e-d926-4979-965c-53b53606f97e",
+          "9c961359-7d43-482d-82d6-93c95095c7ea"
         ],
         "settings": {
           "slideshow_height": "adapt",
