@@ -481,6 +481,28 @@
       "16182498236e89bff3": {
         "type": "slideshow",
         "blocks": {
+          "cf156523-42f0-4527-991e-981cf947b7ff": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/halloween-desktop_H1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "2c49dfce-3719-40b6-82fd-433cffeba142": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/halloween-desktop_M1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
             "settings": {
@@ -502,37 +524,13 @@
               "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
-          },
-          "cf156523-42f0-4527-991e-981cf947b7ff": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/halloween-desktop_H1.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "2c49dfce-3719-40b6-82fd-433cffeba142": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/halloween-desktop_M1.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
-          "28224330-2948-455f-8884-fc8601094c41",
-          "e11910df-99b2-4aff-babd-6e1b09ff4349",
           "cf156523-42f0-4527-991e-981cf947b7ff",
-          "2c49dfce-3719-40b6-82fd-433cffeba142"
+          "2c49dfce-3719-40b6-82fd-433cffeba142",
+          "28224330-2948-455f-8884-fc8601094c41",
+          "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
         "settings": {
           "slideshow_height": "adapt",
@@ -559,6 +557,28 @@
       "16316685475505529c": {
         "type": "slideshow-mobile",
         "blocks": {
+          "72a98c3e-d926-4979-965c-53b53606f97e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/halloween-mobile_H1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "9c961359-7d43-482d-82d6-93c95095c7ea": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/halloween-mobile_M1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
             "type": "image",
             "settings": {
@@ -580,37 +600,13 @@
               "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
-          },
-          "72a98c3e-d926-4979-965c-53b53606f97e": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/halloween-mobile_H1.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "9c961359-7d43-482d-82d6-93c95095c7ea": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/halloween-mobile_M1.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
-          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
-          "712a7599-ca09-4980-8b54-fa1d2c58fef5",
           "72a98c3e-d926-4979-965c-53b53606f97e",
-          "9c961359-7d43-482d-82d6-93c95095c7ea"
+          "9c961359-7d43-482d-82d6-93c95095c7ea",
+          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
+          "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
         "settings": {
           "slideshow_height": "adapt",
