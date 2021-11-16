@@ -565,12 +565,24 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "b68bf54f-eaf2-4157-8349-c02cf2b6506c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-mobile-pack-hombre.jpg",
+              "alignment": "center center",
+              "slide_title": "Diapositiva de imagen",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
           "712a7599-ca09-4980-8b54-fa1d2c58fef5",
-          "b23d2c4b-a1df-4fe3-8ed4-8320c900d987"
+          "b23d2c4b-a1df-4fe3-8ed4-8320c900d987",
+          "b68bf54f-eaf2-4157-8349-c02cf2b6506c"
         ],
         "settings": {
           "slideshow_height": "adapt",
