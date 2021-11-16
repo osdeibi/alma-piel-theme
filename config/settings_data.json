@@ -513,12 +513,24 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "a7ae1389-6a78-4071-87a1-1b6b625aa193": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-desktop-pack-hombre.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "28224330-2948-455f-8884-fc8601094c41",
           "e11910df-99b2-4aff-babd-6e1b09ff4349",
-          "91782084-542e-4bf5-a53d-858a1d5cb78f"
+          "91782084-542e-4bf5-a53d-858a1d5cb78f",
+          "a7ae1389-6a78-4071-87a1-1b6b625aa193"
         ],
         "settings": {
           "slideshow_height": "adapt",
