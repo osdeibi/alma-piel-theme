@@ -595,7 +595,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/banner-mobile-pack-hombre.jpg",
               "alignment": "center center",
-              "slide_title": "Diapositiva de imagen",
+              "slide_title": "",
               "subheading": "",
               "button_label": "CONOCER MÁS",
               "button_link": "https:\/\/almapiel.cl\/products\/pack-verano-delineado-cejas-bigote-6-sesiones"
