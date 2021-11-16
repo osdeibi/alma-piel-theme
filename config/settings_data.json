@@ -502,11 +502,23 @@
               "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
+          },
+          "91782084-542e-4bf5-a53d-858a1d5cb78f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-desktop-pack-mujer.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "28224330-2948-455f-8884-fc8601094c41",
-          "e11910df-99b2-4aff-babd-6e1b09ff4349"
+          "e11910df-99b2-4aff-babd-6e1b09ff4349",
+          "91782084-542e-4bf5-a53d-858a1d5cb78f"
         ],
         "settings": {
           "slideshow_height": "adapt",
