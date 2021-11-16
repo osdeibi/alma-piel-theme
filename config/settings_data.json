@@ -481,28 +481,6 @@
       "16182498236e89bff3": {
         "type": "slideshow",
         "blocks": {
-          "28224330-2948-455f-8884-fc8601094c41": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner-Laser2x3.jpg",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "CONOCER MÁS",
-              "button_link": "shopify:\/\/collections\/depilacion-laser-mujer"
-            }
-          },
-          "e11910df-99b2-4aff-babd-6e1b09ff4349": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner-agendar-cita.jpg",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "AGENDAR AQUÍ",
-              "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
-            }
-          },
           "91782084-542e-4bf5-a53d-858a1d5cb78f": {
             "type": "image",
             "settings": {
@@ -524,13 +502,35 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "28224330-2948-455f-8884-fc8601094c41": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-Laser2x3.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "CONOCER MÁS",
+              "button_link": "shopify:\/\/collections\/depilacion-laser-mujer"
+            }
+          },
+          "e11910df-99b2-4aff-babd-6e1b09ff4349": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-agendar-cita.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "AGENDAR AQUÍ",
+              "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
+            }
           }
         },
         "block_order": [
-          "28224330-2948-455f-8884-fc8601094c41",
-          "e11910df-99b2-4aff-babd-6e1b09ff4349",
           "91782084-542e-4bf5-a53d-858a1d5cb78f",
-          "a7ae1389-6a78-4071-87a1-1b6b625aa193"
+          "a7ae1389-6a78-4071-87a1-1b6b625aa193",
+          "28224330-2948-455f-8884-fc8601094c41",
+          "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
         "settings": {
           "slideshow_height": "adapt",
@@ -557,28 +557,6 @@
       "16316685475505529c": {
         "type": "slideshow-mobile",
         "blocks": {
-          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Frame-17b.jpg",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "CONOCER MÁS",
-              "button_link": "https:\/\/almapiel.cl\/collections\/depilacion-laser-mujer"
-            }
-          },
-          "712a7599-ca09-4980-8b54-fa1d2c58fef5": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Frame_19_121bdce4-a6c7-4f51-b352-d8caa9eb0398.jpg",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "AGENDAR AQUÍ",
-              "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
-            }
-          },
           "b23d2c4b-a1df-4fe3-8ed4-8320c900d987": {
             "type": "image",
             "settings": {
@@ -600,13 +578,35 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Frame-17b.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "CONOCER MÁS",
+              "button_link": "https:\/\/almapiel.cl\/collections\/depilacion-laser-mujer"
+            }
+          },
+          "712a7599-ca09-4980-8b54-fa1d2c58fef5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_19_121bdce4-a6c7-4f51-b352-d8caa9eb0398.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "AGENDAR AQUÍ",
+              "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
+            }
           }
         },
         "block_order": [
-          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
-          "712a7599-ca09-4980-8b54-fa1d2c58fef5",
           "b23d2c4b-a1df-4fe3-8ed4-8320c900d987",
-          "b68bf54f-eaf2-4157-8349-c02cf2b6506c"
+          "b68bf54f-eaf2-4157-8349-c02cf2b6506c",
+          "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
+          "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
         "settings": {
           "slideshow_height": "adapt",
