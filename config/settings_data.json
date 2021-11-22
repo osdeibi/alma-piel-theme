@@ -503,6 +503,17 @@
               "button_link": ""
             }
           },
+          "1260308c-9190-4224-88ad-c1cad2b4c3b7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-desktop-IG-concurso.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
             "settings": {
@@ -529,6 +540,7 @@
         "block_order": [
           "91782084-542e-4bf5-a53d-858a1d5cb78f",
           "a7ae1389-6a78-4071-87a1-1b6b625aa193",
+          "1260308c-9190-4224-88ad-c1cad2b4c3b7",
           "28224330-2948-455f-8884-fc8601094c41",
           "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
@@ -579,6 +591,17 @@
               "button_link": ""
             }
           },
+          "0356857c-e060-47d0-9e43-a18ac13854ca": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-mobile-IG-concurso.jpg",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
             "type": "image",
             "settings": {
@@ -605,6 +628,7 @@
         "block_order": [
           "b23d2c4b-a1df-4fe3-8ed4-8320c900d987",
           "b68bf54f-eaf2-4157-8349-c02cf2b6506c",
+          "0356857c-e060-47d0-9e43-a18ac13854ca",
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
           "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
