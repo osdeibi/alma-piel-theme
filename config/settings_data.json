@@ -577,12 +577,24 @@
               "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
+          },
+          "5576005f-7516-4033-b776-fd217ec25431": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-mobile-theordinary_1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "0356857c-e060-47d0-9e43-a18ac13854ca",
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
-          "712a7599-ca09-4980-8b54-fa1d2c58fef5"
+          "712a7599-ca09-4980-8b54-fa1d2c58fef5",
+          "5576005f-7516-4033-b776-fd217ec25431"
         ],
         "settings": {
           "slideshow_height": "adapt",
