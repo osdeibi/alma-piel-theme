@@ -524,13 +524,39 @@
               "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
+          },
+          "ca2f6eeb-f78c-4e4c-bf73-e11a1a2e06d4": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner_desktop_-_blackfriday_mujer.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "26a0929a-c7c2-4142-979b-11d4f5d26b66": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner_desktop_-_blackfriday_hombre.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "1260308c-9190-4224-88ad-c1cad2b4c3b7",
           "fceaaf7d-74b1-4f5a-ad28-10fc7a2ca98c",
           "28224330-2948-455f-8884-fc8601094c41",
-          "e11910df-99b2-4aff-babd-6e1b09ff4349"
+          "e11910df-99b2-4aff-babd-6e1b09ff4349",
+          "ca2f6eeb-f78c-4e4c-bf73-e11a1a2e06d4",
+          "26a0929a-c7c2-4142-979b-11d4f5d26b66"
         ],
         "settings": {
           "slideshow_height": "adapt",
