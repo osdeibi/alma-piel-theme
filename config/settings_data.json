@@ -492,6 +492,17 @@
               "button_link": ""
             }
           },
+          "fceaaf7d-74b1-4f5a-ad28-10fc7a2ca98c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-desktop-theordinary_1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
             "settings": {
@@ -517,6 +528,7 @@
         },
         "block_order": [
           "1260308c-9190-4224-88ad-c1cad2b4c3b7",
+          "fceaaf7d-74b1-4f5a-ad28-10fc7a2ca98c",
           "28224330-2948-455f-8884-fc8601094c41",
           "e11910df-99b2-4aff-babd-6e1b09ff4349"
         ],
@@ -556,6 +568,17 @@
               "button_link": ""
             }
           },
+          "5576005f-7516-4033-b776-fd217ec25431": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner-mobile-theordinary_1.png",
+              "alignment": "center center",
+              "slide_title": "",
+              "subheading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
             "type": "image",
             "settings": {
@@ -577,24 +600,13 @@
               "button_label": "AGENDAR AQUÍ",
               "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
             }
-          },
-          "5576005f-7516-4033-b776-fd217ec25431": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/banner-mobile-theordinary_1.png",
-              "alignment": "center center",
-              "slide_title": "",
-              "subheading": "",
-              "button_label": "",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
           "0356857c-e060-47d0-9e43-a18ac13854ca",
+          "5576005f-7516-4033-b776-fd217ec25431",
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9",
-          "712a7599-ca09-4980-8b54-fa1d2c58fef5",
-          "5576005f-7516-4033-b776-fd217ec25431"
+          "712a7599-ca09-4980-8b54-fa1d2c58fef5"
         ],
         "settings": {
           "slideshow_height": "adapt",
