@@ -483,6 +483,7 @@
         "blocks": {
           "ca2f6eeb-f78c-4e4c-bf73-e11a1a2e06d4": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/banner_desktop_-_blackfriday_mujer.png",
               "alignment": "center center",
@@ -494,6 +495,7 @@
           },
           "26a0929a-c7c2-4142-979b-11d4f5d26b66": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/banner_desktop_-_blackfriday_hombre.png",
               "alignment": "center center",
@@ -583,6 +585,7 @@
         "blocks": {
           "50736d54-3719-4d2b-8017-ebaff077ead7": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/banner_mobile_-_blackfriday_mujer.png",
               "alignment": "center center",
@@ -594,6 +597,7 @@
           },
           "00bf30a9-1b10-4277-bca8-e88b630e857d": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/banner_mobile_-_blackfriday_hombre.png",
               "alignment": "center center",
