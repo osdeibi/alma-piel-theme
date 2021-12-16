@@ -508,11 +508,11 @@
           "436aec7c-37de-47ec-8f60-08599e3fdbb6": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner-desktop-giftcard-1.jpg",
+              "image": "shopify:\/\/shop_images\/banner-desktop-giftcard-2B.jpg",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
-              "button_label": "CONOCER MÁS",
+              "button_label": "Conoce nuestras Gift Cards",
               "button_link": "shopify:\/\/collections\/giftcards"
             }
           },
