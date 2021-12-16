@@ -610,11 +610,11 @@
           "715982a4-7a8a-463b-9a32-4acdbbfa1c73": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner-mobile-giftcard-1.jpg",
+              "image": "shopify:\/\/shop_images\/banner-mobile-giftcard-2B.jpg",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
-              "button_label": "CONOCER MÁS",
+              "button_label": "Conoce nuestras Gift Cards",
               "button_link": "shopify:\/\/collections\/giftcards"
             }
           },
