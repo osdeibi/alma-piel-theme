@@ -631,6 +631,7 @@
           },
           "b4a5e22e-e684-4dfc-a8f9-9aa1c59730f9": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Frame-17b.jpg",
               "alignment": "center center",
