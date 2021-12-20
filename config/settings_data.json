@@ -529,6 +529,7 @@
           },
           "28224330-2948-455f-8884-fc8601094c41": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/banner-Laser2x3.jpg",
               "alignment": "center center",
