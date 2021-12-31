@@ -542,12 +542,12 @@
           "e11910df-99b2-4aff-babd-6e1b09ff4349": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner2.jpg",
+              "image": "shopify:\/\/shop_images\/banner2_fceed314-9a74-4a87-b5f4-ae6090177dec.jpg",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
-              "button_label": "AGENDAR AQUÍ",
-              "button_link": "https:\/\/almapiel.agendapro.com\/cl\/workflow?local=13930"
+              "button_label": "",
+              "button_link": ""
             }
           }
         },
