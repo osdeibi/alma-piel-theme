@@ -43,7 +43,7 @@
           "logo": "shopify:\/\/shop_images\/Captura_de_Pantalla_2021-03-23_a_la_s_10.32.53.png",
           "logo_max_width": 250,
           "main_linklist": "main-menu",
-          "message": true,
+          "message": false,
           "home_page_only": false,
           "message_text": "¡Aprovecha nuestros precios de lanzamiento!",
           "message_link": "",
@@ -611,12 +611,12 @@
           "715982a4-7a8a-463b-9a32-4acdbbfa1c73": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner_security.jpg",
+              "image": "shopify:\/\/shop_images\/BANNER_MOBILE.jpg",
               "alignment": "center center",
               "slide_title": "",
               "subheading": "",
-              "button_label": "Conoce nuestras Gift Cards",
-              "button_link": "shopify:\/\/collections\/giftcards"
+              "button_label": "",
+              "button_link": ""
             }
           },
           "5576005f-7516-4033-b776-fd217ec25431": {
