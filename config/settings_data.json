@@ -621,6 +621,7 @@
           },
           "5576005f-7516-4033-b776-fd217ec25431": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/banner-mobile-theordinary_1.png",
               "alignment": "center center",
