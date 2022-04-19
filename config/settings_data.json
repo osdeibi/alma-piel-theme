@@ -694,15 +694,6 @@
           "button_label": "",
           "button_link": "shopify:\/\/collections\/tecnologia"
         }
-      },
-      "16504017961cd201be": {
-        "type": "rich-text",
-        "settings": {
-          "full_width": false,
-          "section_title": "NUESTRAS TECNOLOGÍAS",
-          "text": "",
-          "text_size": "medium"
-        }
       }
     },
     "content_for_index": [
@@ -710,7 +701,6 @@
       "16182498236e89bff3",
       "161651440322ca7421",
       "16317118999efc92df",
-      "16504017961cd201be",
       "hero-2",
       "165039978232727c21",
       "1650400040cd1c3640",
