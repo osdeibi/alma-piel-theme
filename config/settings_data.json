@@ -334,7 +334,6 @@
       },
       "161651440322ca7421": {
         "type": "collection-list",
-        "disabled": true,
         "blocks": {
           "161651440322ca7421-0": {
             "type": "featured_collection",
@@ -583,6 +582,7 @@
       },
       "16317118999efc92df": {
         "type": "collection-list-almapiel",
+        "disabled": true,
         "blocks": {
           "16317118999efc92df-0": {
             "type": "featured_collection",
