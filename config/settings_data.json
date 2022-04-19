@@ -274,6 +274,7 @@
       },
       "161617863296c1035e": {
         "type": "feature-columns",
+        "disabled": true,
         "blocks": {
           "16161786329b946ded-0": {
             "type": "text_block",
@@ -694,6 +695,18 @@
           "button_label": "",
           "button_link": "shopify:\/\/collections\/tecnologia"
         }
+      },
+      "16504033867a4ab43c": {
+        "type": "video",
+        "settings": {
+          "image_position": "center center",
+          "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "show_overlay": true,
+          "style": "image_with_play",
+          "height": "small",
+          "video_title": "",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
@@ -707,7 +720,8 @@
       "1631669262e93ee098",
       "161617863296c1035e",
       "161835032156f272c4",
-      "1650393911287a72da"
+      "1650393911287a72da",
+      "16504033867a4ab43c"
     ]
   },
   "presets": {
