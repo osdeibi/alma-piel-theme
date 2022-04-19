@@ -745,6 +745,48 @@
         "settings": {
           "section_height": "medium"
         }
+      },
+      "16504064129622ad2b": {
+        "type": "quotes",
+        "blocks": {
+          "16504064129622ad2b-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>La van a amar, porque realmente promete una depilación láser definitiva... <a href=\"\/blogs\/testimonios\/testimonio-karen\" target=\"_blank\" title=\"Testimonio Bárbara\">Ver video<\/a><\/p>",
+              "author": "Bárbara"
+            }
+          },
+          "16504064129622ad2b-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
+          },
+          "16504064129622ad2b-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
+          },
+          "efc41a02-22d7-44ba-a6e3-e86e8898c78c": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Agrega las reseñas y los testimonios de los clientes para mostrar a los clientes satisfechos de tu tienda.<\/p>",
+              "author": "Nombre del autor"
+            }
+          }
+        },
+        "block_order": [
+          "16504064129622ad2b-0",
+          "16504064129622ad2b-1",
+          "16504064129622ad2b-2",
+          "efc41a02-22d7-44ba-a6e3-e86e8898c78c"
+        ],
+        "settings": {
+          "title": "Testimonios"
+        }
       }
     },
     "content_for_index": [
@@ -759,7 +801,8 @@
       "161617863296c1035e",
       "161835032156f272c4",
       "1650393911287a72da",
-      "16504049410cf14d7b"
+      "16504049410cf14d7b",
+      "16504064129622ad2b"
     ]
   },
   "presets": {
