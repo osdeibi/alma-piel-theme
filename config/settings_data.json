@@ -706,6 +706,53 @@
           "blog_show_date": false,
           "show_view_all": false
         }
+      },
+      "16504049410cf14d7b": {
+        "type": "image-bar",
+        "blocks": {
+          "16504049410cf14d7b-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-04-19_a_la_s_17.47.44.png",
+              "alignment": "center",
+              "link": "shopify:\/\/blogs\/testimonios\/testimonio-karen",
+              "cta_label": ""
+            }
+          },
+          "16504049410cf14d7b-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "16504049410cf14d7b-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "8d89776d-7753-41a6-8596-615ed321c9b4": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "16504049410cf14d7b-0",
+          "16504049410cf14d7b-1",
+          "16504049410cf14d7b-2",
+          "8d89776d-7753-41a6-8596-615ed321c9b4"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
       }
     },
     "content_for_index": [
@@ -720,7 +767,8 @@
       "161617863296c1035e",
       "161835032156f272c4",
       "1650393911287a72da",
-      "16504046997459b59b"
+      "16504046997459b59b",
+      "16504049410cf14d7b"
     ]
   },
   "presets": {
