@@ -666,6 +666,19 @@
           "blog_show_date": true,
           "show_share_buttons": true
         }
+      },
+      "165039978232727c21": {
+        "type": "hero",
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "title": "Rejuvenecimiento facial sin abrasión líquido facial",
+          "text": "<p>Profunda limpieza facial y un natural rejuvenecimiento de la piel. Mejora los tonoso desiguales, mejora la calidad de la piel con unos poros más cerrados, dejando la piel suave e hidratada.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
@@ -674,6 +687,7 @@
       "161651440322ca7421",
       "16317118999efc92df",
       "hero-2",
+      "165039978232727c21",
       "1631669262e93ee098",
       "161617863296c1035e",
       "161835032156f272c4",
