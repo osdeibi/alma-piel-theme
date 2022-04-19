@@ -711,8 +711,9 @@
           "16504049410cf14d7b-1": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-04-19_a_la_s_18.03.55.png",
               "alignment": "center",
-              "link": "",
+              "link": "shopify:\/\/blogs\/testimonios\/testimonio-javiera",
               "cta_label": ""
             }
           },
