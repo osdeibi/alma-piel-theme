@@ -657,7 +657,7 @@
           "post_limit": 3,
           "blog_show_author": false,
           "blog_show_date": false,
-          "show_view_all": false
+          "show_view_all": true
         }
       },
       "article-template": {
