@@ -696,16 +696,15 @@
           "button_link": "shopify:\/\/collections\/tecnologia"
         }
       },
-      "16504033867a4ab43c": {
-        "type": "video",
+      "16504046997459b59b": {
+        "type": "featured-blog",
         "settings": {
-          "image_position": "center center",
-          "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-          "show_overlay": true,
-          "style": "image_with_play",
-          "height": "small",
-          "video_title": "",
-          "text_size": "medium"
+          "title": "Testimonios",
+          "blog": "testimonios",
+          "post_limit": 6,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_view_all": false
         }
       }
     },
@@ -721,7 +720,7 @@
       "161617863296c1035e",
       "161835032156f272c4",
       "1650393911287a72da",
-      "16504033867a4ab43c"
+      "16504046997459b59b"
     ]
   },
   "presets": {
