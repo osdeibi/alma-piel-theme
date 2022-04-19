@@ -670,15 +670,15 @@
       "165039978232727c21": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/aquaglo_e4222c2d-b574-4c22-beea-025cb72b0dc2.jpg",
+          "image": "shopify:\/\/shop_images\/aquaglo_1.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "adapt",
           "text_size": "medium",
-          "title": "Rejuvenecimiento facial sin abrasión líquido facial",
-          "text": "<p>Profunda limpieza facial y un natural rejuvenecimiento de la piel. Mejora los tonoso desiguales, mejora la calidad de la piel con unos poros más cerrados, dejando la piel suave e hidratada.<\/p><p><a href=\"\/collections\/tecnologia\" target=\"_blank\" title=\"TECNOLOGIA\">Conoce más sobre AquaGlo<\/a><\/p>",
+          "title": "",
+          "text": "",
           "button_label": "",
-          "button_link": ""
+          "button_link": "shopify:\/\/collections\/tecnologia"
         }
       },
       "1650400040cd1c3640": {
