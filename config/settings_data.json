@@ -701,9 +701,9 @@
         "settings": {
           "title": "Testimonios",
           "blog": "testimonios",
-          "post_limit": 6,
+          "post_limit": 3,
           "blog_show_author": false,
-          "blog_show_date": true,
+          "blog_show_date": false,
           "show_view_all": false
         }
       }
