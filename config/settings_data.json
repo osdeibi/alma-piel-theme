@@ -696,17 +696,6 @@
           "button_link": "shopify:\/\/collections\/tecnologia"
         }
       },
-      "16504046997459b59b": {
-        "type": "featured-blog",
-        "settings": {
-          "title": "Testimonios",
-          "blog": "testimonios",
-          "post_limit": 3,
-          "blog_show_author": false,
-          "blog_show_date": false,
-          "show_view_all": false
-        }
-      },
       "16504049410cf14d7b": {
         "type": "image-bar",
         "blocks": {
@@ -767,7 +756,6 @@
       "161617863296c1035e",
       "161835032156f272c4",
       "1650393911287a72da",
-      "16504046997459b59b",
       "16504049410cf14d7b"
     ]
   },
