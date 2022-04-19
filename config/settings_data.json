@@ -720,8 +720,9 @@
           "16504049410cf14d7b-2": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-04-19_a_la_s_18.04.02.png",
               "alignment": "center",
-              "link": "",
+              "link": "shopify:\/\/blogs\/testimonios\/testimonio-maria-jesus",
               "cta_label": ""
             }
           },
