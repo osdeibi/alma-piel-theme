@@ -131,13 +131,13 @@
       "hero-2": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/SOPRANO.jpg",
+          "image": "shopify:\/\/shop_images\/SOPRANO_1.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "adapt",
           "text_size": "medium",
-          "title": "Última innovación en depilación láser del mercado.",
-          "text": "<p>Tecnología TRÍO permite alcanzar de forma simultánea diferentes profundidades y estructuras, posicionándose además, como lo más innovador en el mercado de depilación láser.<\/p><p><a href=\"\/collections\/tecnologia\" target=\"_blank\" title=\"TECNOLOGIA\">Conoce más sobre Soprano Titanium<\/a><\/p>",
+          "title": "",
+          "text": "",
           "button_label": "",
           "button_link": "shopify:\/\/collections\/tecnologia"
         }
