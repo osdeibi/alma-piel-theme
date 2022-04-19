@@ -729,8 +729,9 @@
           "8d89776d-7753-41a6-8596-615ed321c9b4": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2022-04-19_a_la_s_18.04.21.png",
               "alignment": "center",
-              "link": "",
+              "link": "shopify:\/\/blogs\/testimonios\/testimonio-karen-1",
               "cta_label": ""
             }
           }
