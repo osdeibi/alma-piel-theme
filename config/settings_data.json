@@ -670,6 +670,7 @@
       "165039978232727c21": {
         "type": "hero",
         "settings": {
+          "image": "shopify:\/\/shop_images\/aquaglo.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "adapt",
