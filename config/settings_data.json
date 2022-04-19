@@ -570,6 +570,7 @@
       },
       "161835032156f272c4": {
         "type": "video",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/bkg-video.jpg",
           "image_position": "center center",
@@ -777,6 +778,17 @@
           "title": "Lista de colecciones AlmaPiel",
           "grid": 4
         }
+      },
+      "1650393911287a72da": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "novedades",
+          "blog": "novedades",
+          "post_limit": 3,
+          "blog_show_author": false,
+          "blog_show_date": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
@@ -791,7 +803,8 @@
       "161617863296c1035e",
       "1617116903c2c29c95",
       "1631669320e2778f03",
-      "161835032156f272c4"
+      "161835032156f272c4",
+      "1650393911287a72da"
     ]
   },
   "presets": {
