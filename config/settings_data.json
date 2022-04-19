@@ -679,6 +679,19 @@
           "button_label": "",
           "button_link": ""
         }
+      },
+      "1650400040cd1c3640": {
+        "type": "hero",
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "medium",
+          "title": "Tratamiento de microagujas profesional del cuidado de la piel",
+          "text": "<p>Dispositivo electrónico de 16 microagujas verticales oscilantes que disminuyen el trauma provocado en la piel. La agujas pueden penetrar hasta 3 MM, mejorando la producción de colágeno y Elastina.<\/p><p><a href=\"\/collections\/tecnologia\" title=\"TECNOLOGIA\">Conoce más sobre Dermapen<\/a><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
@@ -691,7 +704,8 @@
       "1631669262e93ee098",
       "161617863296c1035e",
       "161835032156f272c4",
-      "1650393911287a72da"
+      "1650393911287a72da",
+      "1650400040cd1c3640"
     ]
   },
   "presets": {
