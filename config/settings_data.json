@@ -789,6 +789,14 @@
           "blog_show_date": false,
           "show_view_all": false
         }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
       }
     },
     "content_for_index": [
